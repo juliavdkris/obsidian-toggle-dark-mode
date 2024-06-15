@@ -5,7 +5,7 @@ class ToggleDarkModePlugin extends obsidian.Plugin {
 		this.addCommand(
 			{
 				id: 'toggle-dark-mode',
-				name: 'Toggle Dark Mode',
+				name: 'Toggle',
 				callback: () => {
 					this.app.changeTheme(this.app.getTheme() === 'obsidian' ? 'moonstone' : 'obsidian');
 				},
